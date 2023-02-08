@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="default.css" />
+    <title>Elecciones de Costa Rica 2022</title>
+</head>
+<body>
+    <div id = "Principal">
+        <header>
+            <div id = "Encabezado">
+                <h1>
+                    Elecciones Costa Rica 2022<br>
+                    Informacion sobre Candidatos a la Presidencia
+                </h1>
+            </div>
+
+            <nav>
+
+
+                <a class="principal" href= "index.html"> Principal</a>
+                <a class="principal" href= "lineth.html"> L. Saborio</a>
+                <a class="principal" href= "figueres.html"> J.M. Figueres</a>
+                <a class="principal" href= "eli.html"> E. Feinzaig</a>
+                <a class="principal last" href= "chavez.html">R. Chavez</a>
+
+            </nav>
+        </header>
+
+        <main>
+            <div id = "FotoCandidato">
+                <img src="img/rodrigochaves.png" alt="Rodrigo">
+            </div>
+            <div id = "Info">
+                <h2>Rodrigo Chavez</h2>
+                <h3>Partido Progreso Social Democrata</h3>
+                <p> Trabajó en el Ministerio de Hacienda de Costa Rica y en el Banco Mundial, donde se especializó en materia de
+                    políticas públicas transformadoras, operaciones de préstamo y productos de investigación y conocimiento.
+                    Estableció influyentes relaciones de asesoramiento y negocios con los más altos niveles del gobierno, en el sector
+                    privado, la comunidad internacional y la sociedad civil en 42 países. Entre sus habilidades destacan el liderazgo, el
+                    pensamiento estratégico, la innovación, la gestión de programas, presupuestos y manejo de equipos grandes de
+                    alto desempeño hasta la negociación de políticas públicas complejas. Posee formación y experiencia profesional
+                    como economista con experiencia en macroeconomía, políticas públicas y finanzas. Trabajó en más de 42 países de
+                    América Latina y el Caribe, Europa del Este, Asia Central, Asia del Sur y Asia Oriental.  <br>
+                    <a href="PSD/biografiaChavez.pdf">Descargar Biografia</a>
+                </p>
+                
+                <h3>Plan de Gobierno</h3> 
+                <p>Principales aspectos que propone en el plan de gobierno, según eje temático</p>
+                <ul>
+                    <li>Ambiente y Energía</li>
+                    <li>Desarrollo Social y Territorial</li>
+                    <li>Infraestructura y Transportes</li>
+                    <li>Reforma Estado / Reforma Politica</li>
+                    <li>Derechos Humanos</li>
+                    <li>Economia</li>
+                    <li>Seguridad</li>
+                    <li>Pobreza</li>
+                </ul>
+
+                <a href="PSD/planpsd.pdf">Descargar Plan</a>
+            </div>
+            <div id = "Video">
+                <h3>Discurso 1</h3>
+                <iframe src="PSD/y2mate.com - Las Mujeres son Progreso_480p.mp4" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe>
+            </div>
+            <div id = "Audio">
+                <h3>Discurso 2</h3>
+                <audio controls>
+                    <source src="PSD/y2mate.com - A partir del 8 de Mayo combatir la corrupción y la evasión fiscal.mp3" type="audio/mp3">
+                </audio>     
+            </div>
+            <div id="YT">
+                <h3>Discurso 3</h3>
+                <iframe src="https://www.youtube.com/embed/vqkINd_2O9o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>     
+            </div>
+
+        </main>
+    </div>
+
+    <footer>
+        <div id = "Foot1">
+            <credit>Tribunal Supremo de Elecciones</credit>
+        </div>
+      
+        <div id = "Foot2">
+            <div id="date"></div>
+            <script>
+              document.getElementById("date").innerHTML = new Date().toLocaleDateString()
+            </script>
+        </div>
+    </footer>
+</body>
+</html>

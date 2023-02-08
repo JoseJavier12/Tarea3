@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="default.css" />
+    <title>Elecciones de Costa Rica 2022</title>
+</head>
+<body>
+    <div id = "Principal">
+        <header>
+            <div id = "Encabezado">
+                <h1>
+                    Elecciones Costa Rica 2022<br>
+                    Informacion sobre Candidatos a la Presidencia
+                </h1>
+            </div>
+
+            <nav>
+                <a class="principal" href= "index.html"> Principal</a>
+                <a class="principal" href= "lineth.html"> L. Saborio</a>
+                <a class="principal" href= "figueres.html"> J.M. Figueres</a>
+                <a class="principal" href= "eli.html"> E. Feinzaig</a>
+                <a class="principal last" href= "chavez.html">R. Chavez</a>
+            </nav>
+        </header>
+
+        <main>
+            <div id = "FotoCandidato">
+                <img src="img/lineth.png" alt="Lineth">
+            </div>
+            <div id = "Info">
+                <h2>Lineth Saborio</h2>
+                <h3>Partido Unidad Social Cristiana</h3>
+                <p> Nace un 4 de noviembre de 1960. Oriunda de Sarchí, estudia primaria y secundaria en su amado cantón. Desde
+                    muy joven destaca por su liderazgo y es así como se decide por estudiar derecho en la Universidad de Costa
+                    Rica, graduándose como abogada en esa alma mater. Es esposa, madre de tres hijos y abuela.<br>
+                    <a href="PUSC/biografialineth.pdf">Descargar Biografia</a>
+                </p>
+                
+                <h3>Plan de Gobierno</h3> 
+                <p>Principales aspectos que propone en el plan de gobierno, según eje temático</p>
+                <ul>
+                    <li>Ambiente y Energía</li>
+                    <li>Desarrollo Social y Territorial</li>
+                    <li>Infraestructura y Transportes</li>
+                    <li>Reforma Estado / Reforma Politica</li>
+                    <li>Derechos Humanos</li>
+                    <li>Economia</li>
+                    <li>Seguridad</li>
+                    <li>Pobreza</li>
+                </ul>
+
+                <a href="PUSC/planlineth.pdf">Descargar Plan</a>
+            </div>
+
+            <div id = "Video">
+                <h3>Discurso 1</h3>
+                <iframe src="PUSC/y2mate.com - Quién es Lineth Saborío_480p.mp4" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe>
+            </div>
+            <div id = "Audio">
+                <h3>Discurso 2</h3>
+                <audio controls>
+                    <source src="PUSC/y2mate.com - Tengo 83 grandes compromisos.mp3" type="audio/mp3">
+                </audio>
+            </div>
+            <div id="YT">
+                <h3>Discurso 3</h3>
+                <iframe src="https://www.youtube.com/embed/nKHcK89BNzU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
+            </div>
+
+        </main>
+    </div>
+
+    <footer>
+        <div id = "Foot1">
+            <credit>Tribunal Supremo de Elecciones</credit>
+        </div>
+      
+        <div id = "Foot2">
+            <div id="date"></div>
+            <script>
+              document.getElementById("date").innerHTML = new Date().toLocaleDateString()
+            </script>
+        </div>
+    </footer>
+</body>
+</html>

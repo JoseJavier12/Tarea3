@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="default.css" />
+    <title>Elecciones de Costa Rica 2022</title>
+</head>
+<body>
+    <div id = "Principal">
+        <header>
+            <div id = "Encabezado">
+                <h1>
+                    Elecciones Costa Rica 2022<br>
+                    Informacion sobre Candidatos a la Presidencia
+                </h1>
+            </div>
+
+            <nav>
+
+
+                <a class="principal" href= "index.html"> Principal</a>
+                <a class="principal" href= "lineth.html"> L. Saborio</a>
+                <a class="principal" href= "figueres.html"> J.M. Figueres</a>
+                <a class="principal" href= "eli.html"> E. Feinzaig</a>
+                <a class="principal last" href= "chavez.html">R. Chavez</a>
+
+            </nav>
+        </header>
+
+        <main>
+            <div id = "FotoCandidato">
+                <img src="img/eli.png" alt="Eliecer">
+            </div>
+            <div id = "Info">
+                <h2>Eliecer Feinzaig</h2>
+                <h3>Partido Liberal Progresista</h3>
+                <p> ELIÉCER “ELI” FEINZAIG es un economista y administrador con más de 30 años de
+                    experiencia como consultor independiente en política pública y política económica,
+                    monitoreo, evaluación y seguimiento de las políticas e instituciones públicas, regulación
+                    de servicios públicos y desarrollo de negocios inmobiliarios. <br>
+                    <a href="PLP/elibiografia.pdf">Descargar Biografia</a>
+                </p>
+                
+                <h3>Plan de Gobierno</h3> 
+                <p>Principales aspectos que propone en el plan de gobierno, según eje temático</p>
+                <ul>
+                    <li>Ambiente y Energía</li>
+                    <li>Desarrollo Social y Territorial</li>
+                    <li>Infraestructura y Transportes</li>
+                    <li>Reforma Estado / Reforma Politica</li>
+                    <li>Derechos Humanos</li>
+                    <li>Economia</li>
+                    <li>Seguridad</li>
+                    <li>Pobreza</li>
+                </ul>
+
+                <a href="PLP/planplp.pdf">Descargar Plan</a>
+            </div>
+            
+                <div id = "Video">
+                    <h3>Discurso 1</h3>
+                    <iframe src="PLP/y2mate.com - Elijamos a Eli_480p.mp4" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe>
+                </div>
+                <div id = "Audio">
+                    <h3>Discurso 2</h3>
+                    <audio controls>
+                        <source src="PLP/y2mate.com - Elijamos a Eli.mp3" type="audio/mp3">
+                    </audio>    
+                </div>
+                <div id="YT">
+                    <h3>Discurso 3</h3>
+                    <iframe src="https://www.youtube.com/embed/s80HuPTgndI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+        </main>
+    </div>
+
+    <footer>
+        <div id = "Foot1">
+            <credit>Tribunal Supremo de Elecciones</credit>
+        </div>
+      
+        <div id = "Foot2">
+            <div id="date"></div>
+            <script>
+              document.getElementById("date").innerHTML = new Date().toLocaleDateString()
+            </script>
+        </div>
+    </footer>
+</body>
+</html>

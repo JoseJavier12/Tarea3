@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="default.css" />
+    <title>Elecciones de Costa Rica 2022</title>
+</head>
+<body>
+    <div id = "Principal">
+        <header>
+            <div id = "Encabezado">
+                <h1>
+                    Elecciones Costa Rica 2022<br>
+                    Informacion sobre Candidatos a la Presidencia
+                </h1>
+            </div>
+
+            <nav>
+
+
+                <a class="principal" href= "index.html"> Principal</a>
+                <a class="principal" href= "lineth.html"> L. Saborio</a>
+                <a class="principal" href= "figueres.html"> J.M. Figueres</a>
+                <a class="principal" href= "eli.html"> E. Feinzaig</a>
+                <a class="principal last" href= "chavez.html">R. Chavez</a>
+
+            </nav>
+        </header>
+
+        <main>
+
+            <div id = "Tablas">
+
+                    <table id = "Participantes" border = "1">
+                        <caption>Participantes:</caption>
+                        <tr>
+                            <td id = "Foto"><img src="img/figueres.png" alt="Figueres"> </td>
+                            <td id = "Foto"><img src="img/rodrigochaves.png" alt="Eliecer"></td>
+                        </tr>
+                        <tr>
+                            <td id = "Foto"><img src="img/eli.png" alt="Rodrigo"></td>
+                            <td id = "Foto"><img src="img/lineth.png" alt="Lineth"></td>
+                        </tr>
+                    </table>
+            
+                    <table id = "Encuestas" border="1">
+
+                        <caption>Encuestas:</caption>
+                        <tr>
+                          <th>Partido</th>
+                          <th>Participante</th>
+                          <th>Encuesta 1</th>
+                          <th>Encuesta 2</th>
+                        </tr>
+              
+                        <tr>
+                          <td id = "Foto"><img src="img/pln.jpg" alt="PLN"></td>
+                          <td>Jose Maria Figueres Olsen</td>
+                          <td><a href="https://www.larepublica.net/noticia/rodrigo-chaves-444-jose-maria-figueres-325-segun-encuesta-de-la-una">Encuesta #1</a></td>
+                          <td><a href="https://www.larepublica.net/noticia/jose-maria-figueres-374-rodrigo-chaves-343-segun-ultima-encuesta-de-demoscopia">Encuesta #2</a></td>
+                        </tr>
+                  
+                       <tr>
+                        <tr>
+                            <td id = "Foto"><img src="img/plp.png" alt="PLP"></td>
+                            <td>Eliecer Feinzaig</td>
+                            <td><a href="https://www.nacion.com/el-pais/politica/encuesta-del-ciep-ningun-candidato-supera-el-15-a/RVAPFWUHEVFTPLVG2YDM2I7LGU/story/">Encuesta #1</a></td>
+                            <td><a href="https://radios.ucr.ac.cr/2022/02/interferencia/encuesta-ciep-cierre-de-la-campana/">Encuesta #2</a></td>
+                          </tr>
+                        </tr>
+                  
+                        <tr>
+                            <td id = "Foto"><img src="img/pusc.png" alt="PUSC"></td>
+                            <td>Lineth Saborio</td>
+                            <td><a href="https://www.nacion.com/el-pais/politica/jose-maria-figueres-y-lineth-saborio-en-empate/3JE2E3YLZRE6HJZ7N6V2LY3XNU/story/">Encuesta #1</a></td>
+                            <td><a href="https://www.larepublica.net/noticia/lineth-saborio-es-la-candidata-con-menor-nivel-de-rechazo-para-una-segunda-ronda">Encuesta #2</a></td>
+                        </tr>
+              
+                        <tr>
+                            <td id = "Foto"><img src="img/psd.png" alt="PSD"></td>
+                            <td>Rodrigo Chavez</td>
+                            <td><a href="https://www.larepublica.net/noticia/rodrigo-chaves-444-jose-maria-figueres-325-segun-encuesta-de-la-una">Encuesta #1</a></td>
+                            <td><a href="https://www.larepublica.net/noticia/jose-maria-figueres-374-rodrigo-chaves-343-segun-ultima-encuesta-de-demoscopia">Encuesta #2</a></td>
+                        </tr>
+              
+                    </table>
+            
+            </div>
+
+            <div id = "LinksInteres">
+                <p>Links de interes:</p>
+                <ul>
+                    <li><a href="https://www.presidencia.go.cr/autoridades/equipo-presidencial/presidente-de-la-republica/">Rodrigo Chavez Bibliografia</a></li>
+                    <li><a href="https://www.tse.go.cr/fichas/candidaturas/P/p-PUSC/204240867">Lineth Saborio Bibliografia</a></li>
+                    <li><a href="https://liberal.cr/biografia-eli-feinzaig/">Eli Feinzaig Bibliografia</a></li>
+                    <li><a href="https://www.figueres.cr/es-cr/">Jose Maria Figueres Bibliografia</a></li>
+                    <li><a href="https://www.tse.go.cr/dondevotar/">Lugares de Votacion</a></li>
+                    <li><a href="https://semanariouniversidad.com/pais/encuesta-ciep-uce-confirma-punteros-y-31-de-indecisos-al-cierre-de-la-campana/">Encuestas</a></li>
+                </ul>
+            </div>
+
+
+        </main>
+    </div>
+
+    <footer>
+        <div id = "Foot1">
+            <credit>Tribunal Supremo de Elecciones</credit>
+        </div>
+      
+        <div id = "Foot2">
+            <div id="date"></div>
+            <script>
+              document.getElementById("date").innerHTML = new Date().toLocaleDateString()
+            </script>
+        </div>
+    </footer>
+</body>
+</html>

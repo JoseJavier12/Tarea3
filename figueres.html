@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="default.css" />
+    <title>Elecciones de Costa Rica 2022</title>
+</head>
+<body>
+    <div id = "Principal">
+        <header>
+            <div id = "Encabezado">
+                <h1>
+                    Elecciones Costa Rica 2022<br>
+                    Informacion sobre Candidatos a la Presidencia
+                </h1>
+            </div>
+
+            <nav>
+
+
+                <a class="principal" href= "index.html"> Principal</a>
+                <a class="principal" href= "lineth.html"> L. Saborio</a>
+                <a class="principal" href= "figueres.html"> J.M. Figueres</a>
+                <a class="principal" href= "eli.html"> E. Feinzaig</a>
+                <a class="principal last" href= "chavez.html">R. Chavez</a>
+
+            </nav>
+        </header>
+
+        <main>
+            <div id = "FotoCandidato">
+                <img src="img/figueres.png" alt="Figueres">
+            </div>
+            <div id = "Info">
+                <h2>Jose Maria Figueres Olsen</h2>
+                <h3>Partido Liberacion Nacional</h3>
+                <p>José María Figueres Olsen (Catedral, San José, 24 de diciembre de 1954) 
+                    es un ingeniero industrial, político y consultor internacional costarricense. 
+                    Figueres fue ministro de Comercio Exterior de 1986 a 1988, 
+                    ministro de Agricultura y Ganadería de 1989 a 1990 
+                    durante la administración Arias Sánchez (1986-1990) 
+                    y 42.° presidente de la República de Costa Rica de 1994 a 1998.<br>
+                    <a href="PLN/biografiaFigueres.pdf">Descargar Biografia</a>
+                </p>
+                
+                <h3>Plan de Gobierno</h3> 
+                <p>Principales aspectos que propone en el plan de gobierno, según eje temático</p>
+                <ul>
+                    <li>Ambiente y Energía</li>
+                    <li>Desarrollo Social y Territorial</li>
+                    <li>Infraestructura y Transportes</li>
+                    <li>Reforma Estado / Reforma Politica</li>
+                    <li>Derechos Humanos</li>
+                    <li>Economia</li>
+                    <li>Seguridad</li>
+                    <li>Pobreza</li>
+                </ul>
+
+                <a href="PLN/planFigueres.pdf">Descargar Plan</a>
+            </div>
+            <div id = "Video">
+                <h3>Discurso 1</h3>
+                <iframe src="PLN/y2mate.com - Lo que significa CostaRicaMereceGanar_480p.mp4" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe>
+            </div>
+            <div id = "Audio">
+                <h3>Discurso 2</h3>
+                <audio controls>
+                    <source src="PLN/y2mate.com - El sistema de Salud.mp3" type="audio/mp3">
+                </audio>    
+            </div>
+            <div id="YT">
+                <h3>Discurso 3</h3>
+                <iframe src="https://www.youtube.com/embed/6gtQtk3RRWc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <div id = "Foot1">
+            <credit>Tribunal Supremo de Elecciones</credit>
+        </div>
+      
+        <div id = "Foot2">
+            <div id="date"></div>
+            <script>
+              document.getElementById("date").innerHTML = new Date().toLocaleDateString()
+            </script>
+        </div>
+    </footer>
+</body>
+</html>
